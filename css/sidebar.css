@@ -72,6 +72,26 @@ sidebar .menu ul{
 
 sidebar .menu ul li{
     width:100%;
-    border:1px solid red;
-    padding: 10px 20px;
+    padding: 20px 20px;
+
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+sidebar .menu ul li i{
+    color: #6e8efb;
+    font-size:25px;
+}
+
+sidebar .menu ul li a{
+    color: #72777a;
+    margin-left:20px;
+    text-decoration:none;
+    text-transform: uppercase;
+    transition: color 0.2s;
+}
+
+sidebar .menu ul li a:hover{
+    color:#4d4d4d;
 }
